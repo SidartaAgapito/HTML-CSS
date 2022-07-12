@@ -4,16 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tabelas</title>
+  <title>Desafio mesclagem de celulas</title>
   <style>
     body{
       font-family: Arial, Helvetica, sans-serif;
     }
 
-    table {
+    table{
       border-collapse: collapse;
       width: 300px;
-      
+    
     }
 
     td {
@@ -24,30 +24,29 @@
 
   </style>
   <body>
-    <h1>Mesclagem de celulas</h1>
     <table>
       <tr>
-        <td>A</td>
-        <td colspan="2">B</td>
-        
+        <td colspan="4">a</td>
+        <td rowspan="4">b</td>
       </tr>
       <tr>
-        <td>D</td>
-        <td>E</td>
-        <td rowspan="3">F</td>
-
+        <td rowspan="4">c</td>
+        <td>d</td>
+        <td>e</td>
+        <td>f</td>
       </tr>
       <tr>
-        <td>G</td>
-        <td>H</td>
-        
-
+        <td>g</td>
+        <td>h</td>
+        <td>i</td>
       </tr>
       <tr>
-        <td>J</td>
-        <td>L</td>
-        
-
+        <td>j</td>
+        <td>l</td>
+        <td>m</td>
+      </tr>
+      <tr>
+        <td colspan="4">n</td>
       </tr>
     </table>
   </body>
